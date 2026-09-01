@@ -1,0 +1,19 @@
+# One GitHub repo per line (owner/name). Lines starting with # are skipped.
+
+# Read the Docs platform
+readthedocs/readthedocs.org
+readthedocs/addons
+readthedocs/ext-theme
+readthedocs/common
+readthedocs/readthedocs-docker-images
+readthedocs/website
+
+# Sphinx ecosystem
+readthedocs/sphinx-autoapi
+readthedocs/sphinx-build-compatibility
+readthedocs/sphinx_rtd_theme
+readthedocs/sphinx-notfound-page
+
+# EthicalAds
+readthedocs/ethical-ad-server
+readthedocs/ethical-ad-client
