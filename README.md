@@ -11,7 +11,14 @@ to each workflow run as artifacts.
 ## Scoreboard
 
 <!-- scoreboard:start -->
-_No scans yet — the scoreboard appears after the first workflow run._
+Last scan: 2026-09-01 · Scorecard v5.5.0
+
+| Repo | Score | Lowest checks |
+|------|-------|---------------|
+| [readthedocs/sphinx-build-compatibility](https://github.com/readthedocs/sphinx-build-compatibility) | 2.9 | Branch-Protection (0), CI-Tests (0), CII-Best-Practices (0) |
+| [readthedocs/readthedocs-docker-images](https://github.com/readthedocs/readthedocs-docker-images) | 3.2 | Branch-Protection (0), CII-Best-Practices (0), Dependency-Update-Tool (0) |
+| [readthedocs/addons](https://github.com/readthedocs/addons) | 4.8 | Branch-Protection (0), CII-Best-Practices (0), Dependency-Update-Tool (0) |
+| [readthedocs/sphinx-autoapi](https://github.com/readthedocs/sphinx-autoapi) | 5.3 | Branch-Protection (0), CII-Best-Practices (0), Fuzzing (0) |
 <!-- scoreboard:end -->
 
 Scores are 0–10 (higher is better), sorted worst-first. "Lowest checks" lists
