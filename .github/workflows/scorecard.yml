@@ -30,6 +30,11 @@ jobs:
           # precedence over the workflow token if API rate limits become a problem.
           GITHUB_AUTH_TOKEN: ${{ secrets.SCORECARD_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
+          # The Branch-Protection check needs a token that can read classic
+          # branch protection rules, which the workflow token cannot. When a
+          # scan fails, retry it with every other check so the repo still
+          # gets scored.
+          CHECKS_NO_BRANCH_PROTECTION="Binary-Artifacts,CI-Tests,CII-Best-Practices,Code-Review,Contributors,Dangerous-Workflow,Dependency-Update-Tool,Fuzzing,License,Maintained,Packaging,Pinned-Dependencies,SAST,Security-Policy,Signed-Releases,Token-Permissions,Vulnerabilities"
           mkdir -p results
           while IFS= read -r repo; do
             case "$repo" in
@@ -38,8 +43,11 @@ jobs:
             name=$(basename "$repo")
             echo "::group::${repo}"
             if ! ./scorecard --repo="github.com/${repo}" --format=json > "results/${name}.json"; then
-              echo "::warning::Scan failed for ${repo}"
-              rm -f "results/${name}.json"
+              echo "Full scan failed; retrying without Branch-Protection"
+              if ! ./scorecard --repo="github.com/${repo}" --format=json --checks="$CHECKS_NO_BRANCH_PROTECTION" > "results/${name}.json"; then
+                echo "::warning::Scan failed for ${repo}"
+                rm -f "results/${name}.json"
+              fi
             fi
             echo "::endgroup::"
           done < repos.txt

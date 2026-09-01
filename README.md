@@ -29,7 +29,10 @@ each repo's three lowest-scoring checks that score below 5.
 - Repos are scanned from the outside, without admin access, so checks that
   need it (parts of Branch-Protection, for example) can score low or show as
   inconclusive. Treat scores as a relative signal, not an absolute grade.
-- The scan authenticates with the workflow's `GITHUB_TOKEN`. If runs start
-  hitting API rate limits, add a classic PAT with `public_repo` scope as a
-  `SCORECARD_TOKEN` repository secret — it takes precedence.
+- The workflow's `GITHUB_TOKEN` cannot read classic branch protection rules,
+  so repos using classic branch protection are scored without the
+  Branch-Protection check (the scan retries with it excluded). Adding a
+  classic PAT from an org admin as a `SCORECARD_TOKEN` repository secret
+  restores that check — it takes precedence over the workflow token, and also
+  helps if runs hit API rate limits.
 - To add or remove a repo, edit `repos.txt`.
