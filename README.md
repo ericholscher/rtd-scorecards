@@ -11,7 +11,7 @@ to each workflow run as artifacts.
 ## Scoreboard
 
 <!-- scoreboard:start -->
-Last scan: 2026-09-01 · Scorecard v5.5.0
+Last scan: 2026-09-07 · Scorecard v5.5.0
 
 | Repo | Score | Lowest checks |
 |------|-------|---------------|
@@ -22,10 +22,10 @@ Last scan: 2026-09-01 · Scorecard v5.5.0
 | [readthedocs/sphinx-notfound-page](https://github.com/readthedocs/sphinx-notfound-page) | 4.1 | CII-Best-Practices (0), Fuzzing (0), Maintained (0) |
 | [readthedocs/website](https://github.com/readthedocs/website) | 4.2 | CII-Best-Practices (0), Dependency-Update-Tool (0), Fuzzing (0) |
 | [readthedocs/common](https://github.com/readthedocs/common) | 4.3 | CII-Best-Practices (0), Dependency-Update-Tool (0), Fuzzing (0) |
-| [readthedocs/addons](https://github.com/readthedocs/addons) | 4.8 | Branch-Protection (0), CII-Best-Practices (0), Dependency-Update-Tool (0) |
+| [readthedocs/addons](https://github.com/readthedocs/addons) | 4.6 | Branch-Protection (0), CII-Best-Practices (0), Dependency-Update-Tool (0) |
 | [readthedocs/ext-theme](https://github.com/readthedocs/ext-theme) | 4.8 | CII-Best-Practices (0), Dependency-Update-Tool (0), Fuzzing (0) |
 | [readthedocs/sphinx-autoapi](https://github.com/readthedocs/sphinx-autoapi) | 5.3 | Branch-Protection (0), CII-Best-Practices (0), Fuzzing (0) |
-| [readthedocs/ethical-ad-server](https://github.com/readthedocs/ethical-ad-server) | 7.5 | CII-Best-Practices (0), Fuzzing (0), SAST (0) |
+| [readthedocs/ethical-ad-server](https://github.com/readthedocs/ethical-ad-server) | 7.4 | CII-Best-Practices (0), Fuzzing (0), SAST (0) |
 | [readthedocs/readthedocs.org](https://github.com/readthedocs/readthedocs.org) | 8.0 | CII-Best-Practices (0), Fuzzing (0), Pinned-Dependencies (2) |
 <!-- scoreboard:end -->
 
