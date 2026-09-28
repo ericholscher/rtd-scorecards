@@ -11,7 +11,7 @@ to each workflow run as artifacts.
 ## Scoreboard
 
 <!-- scoreboard:start -->
-Last scan: 2026-09-21 · Scorecard v5.5.0
+Last scan: 2026-09-28 · Scorecard v5.5.0
 
 | Repo | Score | Lowest checks |
 |------|-------|---------------|
@@ -19,14 +19,14 @@ Last scan: 2026-09-21 · Scorecard v5.5.0
 | [readthedocs/sphinx-build-compatibility](https://github.com/readthedocs/sphinx-build-compatibility) | 2.9 | Branch-Protection (0), CI-Tests (0), CII-Best-Practices (0) |
 | [readthedocs/readthedocs-docker-images](https://github.com/readthedocs/readthedocs-docker-images) | 3.2 | Branch-Protection (0), CII-Best-Practices (0), Dependency-Update-Tool (0) |
 | [readthedocs/sphinx-notfound-page](https://github.com/readthedocs/sphinx-notfound-page) | 4.1 | CII-Best-Practices (0), Fuzzing (0), Maintained (0) |
+| [readthedocs/website](https://github.com/readthedocs/website) | 4.2 | CII-Best-Practices (0), Dependency-Update-Tool (0), Fuzzing (0) |
 | [readthedocs/common](https://github.com/readthedocs/common) | 4.4 | CII-Best-Practices (0), Dependency-Update-Tool (0), Fuzzing (0) |
 | [readthedocs/ethical-ad-client](https://github.com/readthedocs/ethical-ad-client) | 4.4 | CII-Best-Practices (0), Fuzzing (0), SAST (0) |
-| [readthedocs/website](https://github.com/readthedocs/website) | 4.4 | CII-Best-Practices (0), Dependency-Update-Tool (0), Fuzzing (0) |
+| [readthedocs/ext-theme](https://github.com/readthedocs/ext-theme) | 4.7 | CII-Best-Practices (0), Dependency-Update-Tool (0), Fuzzing (0) |
 | [readthedocs/addons](https://github.com/readthedocs/addons) | 4.8 | Branch-Protection (0), CII-Best-Practices (0), Dependency-Update-Tool (0) |
-| [readthedocs/ext-theme](https://github.com/readthedocs/ext-theme) | 4.8 | CII-Best-Practices (0), Dependency-Update-Tool (0), Fuzzing (0) |
 | [readthedocs/sphinx-autoapi](https://github.com/readthedocs/sphinx-autoapi) | 5.3 | Branch-Protection (0), CII-Best-Practices (0), Fuzzing (0) |
 | [readthedocs/ethical-ad-server](https://github.com/readthedocs/ethical-ad-server) | 7.1 | CII-Best-Practices (0), Fuzzing (0), SAST (0) |
-| [readthedocs/readthedocs.org](https://github.com/readthedocs/readthedocs.org) | 8.1 | CII-Best-Practices (0), Fuzzing (0), Pinned-Dependencies (2) |
+| [readthedocs/readthedocs.org](https://github.com/readthedocs/readthedocs.org) | 8.1 | CII-Best-Practices (0), Fuzzing (0), Pinned-Dependencies (1) |
 <!-- scoreboard:end -->
 
 Scores are 0–10 (higher is better), sorted worst-first. "Lowest checks" lists
