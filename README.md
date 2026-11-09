@@ -11,7 +11,7 @@ to each workflow run as artifacts.
 ## Scoreboard
 
 <!-- scoreboard:start -->
-Last scan: 2026-11-02 · Scorecard v5.5.0
+Last scan: 2026-11-09 · Scorecard v5.5.0
 
 | Repo | Score | Lowest checks |
 |------|-------|---------------|
@@ -25,8 +25,8 @@ Last scan: 2026-11-02 · Scorecard v5.5.0
 | [readthedocs/addons](https://github.com/readthedocs/addons) | 4.8 | Branch-Protection (0), CII-Best-Practices (0), Dependency-Update-Tool (0) |
 | [readthedocs/ext-theme](https://github.com/readthedocs/ext-theme) | 5.1 | CII-Best-Practices (0), Dependency-Update-Tool (0), Fuzzing (0) |
 | [readthedocs/sphinx-autoapi](https://github.com/readthedocs/sphinx-autoapi) | 5.8 | Branch-Protection (0), CII-Best-Practices (0), Fuzzing (0) |
-| [readthedocs/ethical-ad-server](https://github.com/readthedocs/ethical-ad-server) | 6.9 | CII-Best-Practices (0), Fuzzing (0), SAST (0) |
-| [readthedocs/readthedocs.org](https://github.com/readthedocs/readthedocs.org) | 7.4 | CII-Best-Practices (0), Fuzzing (0), Vulnerabilities (0) |
+| [readthedocs/ethical-ad-server](https://github.com/readthedocs/ethical-ad-server) | 6.7 | CII-Best-Practices (0), Fuzzing (0), SAST (0) |
+| [readthedocs/readthedocs.org](https://github.com/readthedocs/readthedocs.org) | 7.3 | CII-Best-Practices (0), Fuzzing (0), Vulnerabilities (0) |
 <!-- scoreboard:end -->
 
 Scores are 0–10 (higher is better), sorted worst-first. "Lowest checks" lists
